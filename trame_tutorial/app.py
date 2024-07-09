@@ -14,7 +14,7 @@ class App:
         self.create_ui()
 
     def create_ui(self):
-         with SinglePageLayout(self.server) as layout:
+        with SinglePageLayout(self.server) as layout:
             with layout.content:
                 with vuetify.VCol():
                     vuetify.VTextField("Hello, World!")
